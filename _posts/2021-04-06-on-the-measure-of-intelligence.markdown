@@ -17,4 +17,4 @@ date:   2021-04-06 21:00:00
 |**skill-acquistion efficiency(0-10)**|8|2|
 |**innate priors**|present|absent|
 
-This post is inspired by [François Chollet's On the measure of intelligence](https://arxiv.org/pdf/1911.01547.pdf)
+This post is a tl;dr of [François Chollet's On the measure of intelligence](https://arxiv.org/pdf/1911.01547.pdf)
