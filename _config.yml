@@ -1,0 +1,18 @@
+# Site settings
+title: zer0sh0t blog
+email: 
+description: "home for zer0sh0t's reveries"
+baseurl: ""
+url: "http://zer0sh0t.github.io"
+twitter_username:  
+github_username:  zer0sh0t
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

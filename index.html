@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-  <title>
-    zer0sh0t
-  </title>
-  <style>
-    body {
-      font-family: 'Lucida Console', monospace
-    }
-  </style>
-  <link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg" />
-</head>
+<div class="home">
+  
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <br>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
 
-<body>
-  <h1>zer0sh0t's home on the web</h1>
-  stay still, let me <a href="https://zoomquilt.org/">hack your brain</a>
-</body>
+</div>
