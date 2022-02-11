@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 includelink: true
 ---
 
-nothing here
+rename this to `about.md` to make the about link visible again on the website
