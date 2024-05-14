@@ -49,7 +49,10 @@ pagination:
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
 <p class="card-text">{{ post.description }}</p>
 
-                    {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+                    {% if post.external_source == blank %}
+                      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+                    {% else %}
+                      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
                     {% endif %}
                     {% assign year = post.date | date: "%Y" %}
 
@@ -81,7 +84,10 @@ pagination:
 
     {% for post in postlist %}
 
-    {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+    {% if post.external_source == blank %}
+      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+    {% else %}
+      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
@@ -110,6 +116,9 @@ pagination:
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %d, %Y' }}
+        {% if post.external_source %}
+        &nbsp; &middot; &nbsp; {{ post.external_source }}
+        {% endif %}
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
