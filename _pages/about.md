@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>701 EXP</p>
-    <p>815 Columbus Ave</p>
-    <p>Boston, MA 02120</p>
+    <p>701 EXP<br>
+    815 Columbus Ave<br>
+    Boston, MA 02120</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
