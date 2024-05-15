@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-cv_pdf: example_pdf.pdf
+cv_pdf: harin_resume.pdf
 subtitle: 
 
 profile:
