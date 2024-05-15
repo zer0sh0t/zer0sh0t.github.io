@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+cv_pdf: example_pdf.pdf
 subtitle: 
 
 profile:
