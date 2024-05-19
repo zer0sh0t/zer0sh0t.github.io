@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Experience
+permalink: /experience/
 description: Work In Progress!
 nav: true
-nav_order: 4
-display_categories: [work, fun]
-horizontal: false
+nav_order: 3
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
