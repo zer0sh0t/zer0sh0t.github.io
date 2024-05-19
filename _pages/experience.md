@@ -40,7 +40,7 @@ horizontal: true
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.experience | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
