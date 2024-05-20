@@ -24,7 +24,7 @@ My task was to develop algorithms for a fully self-driving car capable of naviga
     Video 1: 3D object detection system in CARLA simulator
 </div>
 
-I utilized OpenCV and TensorFlow to create robust lane detection systems capable of accurately identifying and distinguishing all road lanes, achieving an impressive accuracy rate of 84%. Additionally, I developed an advanced collision avoidance algorithm that effectively prevents collisions with both vehicles and pedestrians, attaining a success rate of 95%.
+I utilized OpenCV and TensorFlow to create robust lane detection systems capable of accurately identifying and distinguishing all road lanes, achieving an impressive accuracy rate of 84%. 
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/lane_det.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -32,6 +32,8 @@ I utilized OpenCV and TensorFlow to create robust lane detection systems capable
 <div class="caption">
     Figure 2: Shows the output of lane detection system on real-time camera feed
 </div>
+
+Additionally, I developed an advanced collision avoidance algorithm that effectively prevents collisions with both vehicles and pedestrians, attaining a success rate of 95%.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/obs_avo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
