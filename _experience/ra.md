@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research Assistant
-description: <p>SiliconSynapse Lab<br>Apr 2023 - Present</p>
+title: SiliconSynapse Lab
+description: <p>Research Assistant<br>Apr 2023 - Present</p>
 img: assets/img/cobra.png
 importance: 1
 ---
@@ -55,7 +55,7 @@ Additionally, I designed novel RL-guided locomotion patterns tailored for seamle
 </div>
 <div class="caption">
     Video 4: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
-/div>
+</div>
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/loco_ex5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
