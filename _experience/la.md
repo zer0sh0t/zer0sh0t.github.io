@@ -6,7 +6,7 @@ img: assets/img/carla.jpeg
 importance: 2
 ---
 
-Tools used: Python, C/C++, Git, Ubuntu
+Tools used: Python, C/C++, Git, Ubuntu, Tensorflow, PyTorch, NumPy, OpenCV, ROS, CARLA
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/carla.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}

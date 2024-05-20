@@ -6,7 +6,7 @@ img: assets/img/cobra.png
 importance: 1
 ---
 
-Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webots
+Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webots, ROS
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/cobra.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -80,20 +80,20 @@ I led the way in implementing energy-efficient trajectory planning using RL for 
     Figure 3: Environment setup in webots simulator
 </div>
 
-Feel free to delve into my comprehensive master's thesis report at https://doi.org/10.17760/D20659774 for an in-depth exploration of model matching and loco-manipulation controller. If your time is limited, you can instead visit my blog post at https://zer0sh0t.github.io/blog/2024/my-thesis/ for a concise summary of its contents.
+Feel free to delve into my comprehensive master's thesis report at [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774) for an in-depth exploration of model matching and loco-manipulation controller. If your time is limited, you can instead visit my blog post at [https://zer0sh0t.github.io/blog/2024/my-thesis/](https://zer0sh0t.github.io/blog/2024/my-thesis/) for a concise summary of its contents.
 
 ### References
 
-[1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). https://doi.org/10.17760/D20659774
+[1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774)
 
-[2] https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/
+[2] [https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/](https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/)
 
-[3] https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/
+[3] [https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/](https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/)
 
-[4] https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf
+[4] [https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf](https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf)
 
-[5] "Non-impulsive Contact-Implicit Motion Planning for Morpho-functional Loco-manipulation" by A. Salagame et. al (2024). https://arxiv.org/abs/2404.08714
+[5] "Non-impulsive Contact-Implicit Motion Planning for Morpho-functional Loco-manipulation" by A. Salagame et. al (2024). [https://arxiv.org/abs/2404.08714](https://arxiv.org/abs/2404.08714)
 
-[6] "Loco-Manipulation with Nonimpulsive Contact-Implicit Planning in a Slithering Robot" by A. Salagame et. al (2024). https://arxiv.org/abs/2404.08174
+[6] "Loco-Manipulation with Nonimpulsive Contact-Implicit Planning in a Slithering Robot" by A. Salagame et. al (2024). [https://arxiv.org/abs/2404.08174](https://arxiv.org/abs/2404.08174)
 
-[7] "Dynamic Multimodal Locomotion: A Quick Overview of Hardware and Control" by Shreyansh Pitroda (2023). https://arxiv.org/abs/2310.00008
+[7] "Dynamic Multimodal Locomotion: A Quick Overview of Hardware and Control" by Shreyansh Pitroda (2023). [https://arxiv.org/abs/2310.00008](https://arxiv.org/abs/2310.00008)
