@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lycan Automotive
-description: <p>Software Engineer<br>May 2021 - Jan 2022</p>
+description: <p>Software Engineer<br>May 2021 - Jan 2022<br>Bangalore, India</p>
 img: assets/img/carla.jpeg
 importance: 2
 ---
@@ -31,13 +31,6 @@ I utilized OpenCV and TensorFlow to create robust lane detection systems capable
 </div>
 <div class="caption">
     Figure 2: Shows the output of lane detection system on real-time camera feed
-</div>
-
-<div class="row mt-3">
-    {% include video.liquid path="assets/video/obs_avo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
-</div>
-<div class="caption">
-    Video 2: Demonstration of the proposed collision avoidance algorithm in a toy 2d highway environment
 </div>
 
 Using the proposed approaches, I developed a proof of concept for a self-driving car that operates within a custom-made simulator, which successfully secured our initial funding.
