@@ -84,10 +84,16 @@ Feel free to delve into my comprehensive master's thesis report at https://doi.o
 
 ### References
 
-[1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). https://doi.org/10.17760/D20659774 
+[1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). https://doi.org/10.17760/D20659774
+
 [2] https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/
+
 [3] https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/
+
 [4] https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf
+
 [5] "Non-impulsive Contact-Implicit Motion Planning for Morpho-functional Loco-manipulation" by A. Salagame et. al (2024). https://arxiv.org/abs/2404.08714
+
 [6] "Loco-Manipulation with Nonimpulsive Contact-Implicit Planning in a Slithering Robot" by A. Salagame et. al (2024). https://arxiv.org/abs/2404.08174
+
 [7] "Dynamic Multimodal Locomotion: A Quick Overview of Hardware and Control" by Shreyansh Pitroda (2023). https://arxiv.org/abs/2310.00008

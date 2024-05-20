@@ -5,7 +5,7 @@ permalink: /experience/
 description: Work In Progress!
 nav: true
 nav_order: 3
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
