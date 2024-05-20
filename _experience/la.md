@@ -33,4 +33,11 @@ I utilized OpenCV and TensorFlow to create robust lane detection systems capable
     Figure 2: Shows the output of lane detection system on real-time camera feed
 </div>
 
+<div class="row mt-3">
+    {% include video.liquid path="assets/video/obs_avo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+</div>
+<div class="caption">
+    Video 2: Demonstration of collision avoidance algorithm in a 2d highway environment
+</div>
+
 Using the proposed approaches, I developed a proof of concept for a self-driving car that operates within a custom-made simulator, which successfully secured our initial funding.
