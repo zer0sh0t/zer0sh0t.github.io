@@ -2,7 +2,7 @@
 layout: page
 title: Experience
 permalink: /experience/
-description: Work In Progress!
+description: My professional and research work experience
 nav: true
 nav_order: 3
 horizontal: false

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SiliconSynapse Lab
+title: Silicon Synapse Lab
 description: <p>Research Assistant<br>Apr 2023 - Present</p>
 img: assets/img/cobra.png
 importance: 1
