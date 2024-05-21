@@ -8,7 +8,7 @@ importance: 1
 
 Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webots, ROS
 
-## COBRA Robot
+## COBRA Robot and Lunar Exploration
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/cobra.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -82,6 +82,8 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/loco_ex4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
+</div>
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/loco_ex3.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
@@ -120,7 +122,7 @@ I also led the way in implementing energy-efficient trajectory planning using RL
 
 Feel free to delve into my comprehensive master's thesis report at [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774) for an in-depth exploration of model matching and loco-manipulation controller. If your time is limited, you can instead visit my blog post at [https://zer0sh0t.github.io/blog/2024/my-thesis/](https://zer0sh0t.github.io/blog/2024/my-thesis/) for a concise summary of its contents.
 
-### References
+## References
 
 [1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774)
 
