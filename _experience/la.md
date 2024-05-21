@@ -34,10 +34,15 @@ I utilized OpenCV and TensorFlow to create robust lane detection systems capable
 </div>
 
 <div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/obs_avo.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/obs_avo_0.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/obs_avo_1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    </div>
 </div>
 <div class="caption">
-    Figure 3: Demonstration of collision avoidance algorithm in a 2d highway environment
+    Video 2: Demonstration of collision avoidance algorithm in a 2d highway environment
 </div>
 
 Using the proposed approaches, I developed a proof of concept for a self-driving car that operates within a custom-made simulator, which successfully secured our initial funding.
