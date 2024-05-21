@@ -34,9 +34,7 @@ I utilized OpenCV and TensorFlow to create robust lane detection systems capable
 </div>
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/obs_avo_1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
-    </div>
+    {% include video.liquid path="assets/video/obs_avo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 <div class="caption">
     Video 2: Demonstration of collision avoidance algorithm in a 2d highway environment
