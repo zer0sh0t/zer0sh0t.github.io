@@ -17,7 +17,7 @@ Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webot
 
 COBRA, short for Crater Observing Bio-inspired Rolling Articulator, is a snake-like robot designed to emulate the movement of serpentine creatures. Engineered to navigate challenging terrains like craters, where traditional robots often struggle, COBRA features 11 joints and 12 links, enabling intricate and versatile movements. With 6 yawing and 5 pitching joints, it offers a wide range of orientations, making it ideal for various robotic applications. Specifically designed to explore hard-to-navigate lunar craters suspected of containing frozen water, COBRA could significantly contribute to identifying these deposits, paving the way for future lunar colonization.
 
-I led the development and maintenance of simulation software for COBRA, an advanced morpho-functional snake robot. Our team successfully secured $1 million in funding from NASA to support lunar surface exploration initiatives and earned top spot at the 2022 NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
+I led the development and maintenance of simulation software for COBRA. Our team successfully secured $1 million in funding from NASA to support lunar surface exploration initiatives and earned top spot at the 2022 NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/sidewinding.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
@@ -26,9 +26,9 @@ I led the development and maintenance of simulation software for COBRA, an advan
     Video 1: Shows COBRA performing sidewinding motion
 </div>
 
-My work primarily focused on bridging the simulation-to-reality gap in the COBRA platform. I developed a reinforcement learning-based framework called "Model Matching," which fine-tunes the simulator model to reduce discrepancies between the real robot and its simulated counterpart in the Webots simulator. By leveraging data from the actual robot, this approach has significantly enhanced the fidelity of the Webots simulator.
+My work primarily focused on bridging the simulation-to-reality gap in the COBRA platform. I developed a reinforcement learning-based framework called "Model Matching," which fine-tunes the simulator model to reduce discrepancies between the real robot and its simulated counterpart in the Webots simulator. By leveraging data from the actual robot, this framework has significantly enhanced the accuracy and fidelity of COBRA's locomotion simulations in the Webots simulator, reducing the sim-to-reality gap by over 150%.
 
-As part of the model matching framework, I designed a seamless and intuitive API for the Webots and MuJoCo simulators, enabling effective fine-tuning of simulation parameters using Reinforcement Learning (RL) techniques. I also developed an accelerated RL model training pipeline, resulting in a fourfold increase in training capacity, which substantially expedited the prototyping and deployment processes. This framework has reduced the sim-to-reality gap by over 150%, significantly enhancing the accuracy and fidelity of COBRA’s locomotion simulations.
+As part of the Model Matching framework, I designed a seamless and intuitive API for the Webots and MuJoCo simulators, enabling effective fine-tuning of simulation parameters using reinforcement learning techniques. Additionally, I developed an accelerated RL model training pipeline, resulting in a fourfold increase in training capacity, which substantially expedited the prototyping and deployment processes.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/real_untuned_tuned_text.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
@@ -48,7 +48,7 @@ Video 2 demonstrates the final tuned simulator model achieved using the model ma
     Video 3: Shows COBRA performing loco-manipulation
 </div>
 
-Additionally, I designed novel RL-guided locomotion patterns tailored for seamless object manipulation, leveraging COBRA’s unique body design to enhance dexterity and precision. Loco-manipulation involves the robot performing locomotion to manipulate objects in its environment, a complex challenge as it requires solving both locomotion and manipulation simultaneously. With the proposed controller, COBRA achieved an impressive success rate of 94.3% in loco-manipulation tasks.
+Additionally, I developed a controller for loco-manipulation tasks within the Webots simulator. Loco-manipulation involves the robot performing locomotion to manipulate objects in its environment, a complex challenge as it requires solving both locomotion and manipulation simultaneously. With the proposed controller, COBRA achieved an impressive success rate of 94.3% in loco-manipulation tasks, leveraging its unique body design to enhance dexterity and precision.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/loco_ex4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
@@ -64,7 +64,7 @@ Additionally, I designed novel RL-guided locomotion patterns tailored for seamle
     Video 5: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
 </div>
 
-I led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This approach improved performance while emphasizing sustainability. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles used for the initial implementation of the proposed framework.
+I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This approach improved performance while emphasizing sustainability. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles used for the initial implementation of the proposed framework.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
