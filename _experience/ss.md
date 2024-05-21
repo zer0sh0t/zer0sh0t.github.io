@@ -15,7 +15,7 @@ Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webot
     Figure 1: COBRA robot
 </div>
 
-COBRA, short for Crater Observing Bio-inspired Rolling Articulator, is a snake-like robot designed to emulate the movement of serpentine creatures. Engineered to navigate challenging terrains like craters, where traditional robots often struggle, COBRA features 11 joints and 12 links, enabling intricate and versatile movements. With 6 yawing and 5 pitching joints, it offers a wide range of orientations, making it ideal for various robotic applications. Specifically designed to explore hard-to-navigate lunar craters suspected of containing frozen water, COBRA could significantly contribute to identifying these deposits, paving the way for future lunar colonization.
+Silicon Synapse Lab specializes in designing bio-inspired robots. COBRA is one such project at SS Lab. COBRA, short for Crater Observing Bio-inspired Rolling Articulator, is a snake-like robot designed to emulate the movement of serpentine creatures. Engineered to navigate challenging terrains like craters, where traditional robots often struggle, COBRA features 11 joints and 12 links, enabling intricate and versatile movements. With 6 yawing and 5 pitching joints, it offers a wide range of orientations, making it ideal for various robotic applications. Specifically designed to explore hard-to-navigate lunar craters suspected of containing frozen water, COBRA could significantly contribute to identifying these deposits, paving the way for future lunar colonization.
 
 I led the development and maintenance of simulation software for COBRA. Our team successfully secured $1 million in funding from NASA to support lunar surface exploration initiatives and earned top spot at the 2022 NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
 
@@ -64,7 +64,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     Video 5: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
 </div>
 
-I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This approach improved performance while emphasizing sustainability. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles used for the initial implementation of the proposed framework.
+I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This approach improves performance while emphasizing sustainability. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles used for the initial implementation of the proposed idea.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FlyWise
+title: AirNav
 description: optimal control system design for aircraft navigation
 img: 
 importance: 4

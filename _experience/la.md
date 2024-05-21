@@ -15,7 +15,7 @@ Tools used: Python, C/C++, Git, Ubuntu, Tensorflow, PyTorch, NumPy, OpenCV, ROS,
     Figure 1: CARLA simulator
 </div>
 
-My task was to develop algorithms for a fully self-driving car capable of navigating Indian streets. We gathered some data ourselves and also utilized open-source datasets such as KITTI and UCB. To achieve this goal, I employed various deep learning models and simulators, including CARLA, Highway Env, and a custom-made simulator. Ultimately, I developed and optimized single-stage and multi-stage monocular 3D object detection algorithms using PyTorch and Numba, achieving an impressive mean average precision of 87%.
+Lycan Automotive, a startup based in Bangalore, specializes in developing electric vehicles. In my role, I focused on crafting AI algorithms customized for these electric cars, empowering them to navigate India's bustling streets autonomously. To realize the company's vision of autonomous navigation, I utilized a range of deep learning models and simulators like CARLA, Highway Env, and a custom simulator. We gathered some of the data ourselves and also utilized open-source datasets such as KITTI and UCB for training the AI algorithms. I developed and optimized single-stage and multi-stage monocular 3D object detection algorithms using PyTorch and Numba to detect vehicles, pedestrians, cyclists, trucks, and more on the road. These algorithms achieved an outstanding mean average precision of 87%, ensuring accurate detection of these objects.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/3d_obj.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
@@ -24,7 +24,7 @@ My task was to develop algorithms for a fully self-driving car capable of naviga
     Video 1: 3D object detection system in CARLA simulator
 </div>
 
-I utilized OpenCV and TensorFlow to create robust lane detection systems capable of accurately identifying and distinguishing all road lanes, achieving an impressive accuracy rate of 84%. Additionally, I developed an advanced collision avoidance algorithm that effectively prevents collisions with both vehicles and pedestrians, attaining a success rate of 95%.
+Lane detection on roads is essential for maintaining car stability during driving. Using OpenCV and TensorFlow, I developed robust lane detection systems that accurately identify and differentiate all road lanes, achieving an impressive 84% accuracy rate. Furthermore, I designed an advanced collision avoidance algorithm that successfully prevents collisions with vehicles and pedestrians, with a remarkable success rate of 95%.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/lane_det.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -40,4 +40,4 @@ I utilized OpenCV and TensorFlow to create robust lane detection systems capable
     Video 2: Demonstration of collision avoidance algorithm in a 2d highway environment
 </div>
 
-Using the proposed approaches, I developed a proof of concept for a self-driving car that operates within a custom-made simulator, which successfully secured our initial funding.
+Using the developed approaches, I created a proof of concept for a self-driving car that operates within a custom-made simulator, which successfully secured our initial funding.
