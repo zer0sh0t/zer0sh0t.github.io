@@ -93,7 +93,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/loco_ex3.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+        {% include video.liquid path="assets/video/loco_ex2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 <div class="caption">
