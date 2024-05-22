@@ -2,7 +2,7 @@
 layout: page
 title: Silicon Synapse Lab
 description: <p>Research Assistant<br>Apr 2023 - Present<br>Boston, USA</p>
-img: assets/img/cobra.png
+img: assets/img/sidewinding.gif
 importance: 1
 ---
 
