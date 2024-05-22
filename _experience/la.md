@@ -53,4 +53,4 @@ Furthermore, I designed an advanced collision avoidance algorithm inside Highway
 
 ## Acquired Funding
 
-Using the developed approaches, I created a proof of concept for a self-driving car that operates within a custom-made simulator (not shown here), which successfully secured our initial funding.
+Using the developed approaches, I created a proof of concept for a self-driving car that operates within a custom-made simulator (confidential, not shown here), which successfully secured our initial funding.

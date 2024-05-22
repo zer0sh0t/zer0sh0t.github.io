@@ -68,12 +68,18 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/locoman_sim.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+</div>
+<div class="caption">
+    Figure 3: Loco-manipulation problem setup in webots simulator
+</div>
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/locomancon.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Figure 3: (Left) Loco-manipulation problem setup in webots simulator. (Right) Hierarchical structure of loco-manipulation controller.
+    Figure 4: Hierarchical structure of loco-manipulation controller
 </div>
 
 <div class="row mt-3">
@@ -109,14 +115,14 @@ I also led the way in implementing energy-efficient trajectory planning using RL
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 4: Harpy robot
+    Figure 5: Harpy robot
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy_rl.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 5: Environment setup in webots simulator
+    Figure 6: Environment setup in webots simulator
 </div>
 
 ## Thesis Report
