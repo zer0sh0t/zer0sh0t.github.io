@@ -109,7 +109,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
 
 ## RL-based Trajectory Planning
 
-I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This approach improves performance while emphasizing sustainability. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles used for the initial implementation of the proposed idea.
+I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This trajectory planner skillfully navigates obstacles to reach designated goals while minimizing power consumption. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles within the Webots simulator, used for the initial proof-of-concept implementation.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -119,7 +119,7 @@ I also led the way in implementing energy-efficient trajectory planning using RL
 </div>
 
 <div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/harpy_rl.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid loading="eager" path="assets/img/harpy_rl.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
     Figure 6: Environment setup in webots simulator
