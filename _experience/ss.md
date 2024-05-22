@@ -62,41 +62,43 @@ Video 2 demonstrates the final tuned simulator model achieved using the model ma
 </div>
 
 
-<div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/locoman_sim.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
-<div class="caption">
-    Figure 3: Loco-manipulation problem setup in webots simulator
-</div>
-
-<div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/locomancon.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
-<div class="caption">
-    Figure 4: Hierarchical structure of loco-manipulation controller
-</div>
-
 Additionally, I developed a controller for loco-manipulation tasks within the Webots simulator. Loco-manipulation involves the robot performing locomotion to manipulate objects in its environment, a complex challenge as it requires solving both locomotion and manipulation simultaneously. With the proposed controller, COBRA achieved an impressive success rate of 94.3% in loco-manipulation tasks, leveraging its unique body design to enhance dexterity and precision.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/locoman_sim.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/locomancon.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: (Left) Loco-manipulation problem setup in webots simulator. (Right) Hierarchical structure of loco-manipulation controller.
+</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/loco_ex4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
+<div class="caption">
+    Video 4: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
+</div>
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/loco_ex3.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 <div class="caption">
-    Video 4: Demonstrations of the loco-manipulation controller in webots simualtor (played in 2x)
+    Video 5: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
 </div>
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/loco_ex5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 <div class="caption">
-    Video 5: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
+    Video 6: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
 </div>
 
 ## RL-based Trajectory Planning
@@ -107,16 +109,15 @@ I also led the way in implementing energy-efficient trajectory planning using RL
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 2: Harpy robot
+    Figure 4: Harpy robot
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy_rl.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 3: Environment setup in webots simulator
+    Figure 5: Environment setup in webots simulator
 </div>
-
 
 ## Thesis Report
 

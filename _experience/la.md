@@ -8,7 +8,7 @@ importance: 2
 
 Tools used: Python, C/C++, Git, Ubuntu, Tensorflow, PyTorch, NumPy, OpenCV, ROS, CARLA
 
-## Autonomous Vehicles
+## Lycan Automotive and Autonomous Vehicles
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/carla.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -42,7 +42,7 @@ Lane detection on roads is essential for maintaining car stability during drivin
 
 ## Collision Avoidance
 
-Furthermore, I designed an advanced collision avoidance algorithm that successfully prevents collisions with vehicles and pedestrians, with a remarkable success rate of 95%.
+Furthermore, I designed an advanced collision avoidance algorithm inside Highway Env simulator that successfully prevents collisions with vehicles and pedestrians, with a remarkable success rate of 95%. Examples of the algorithm behavior is shown below.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/obs_avo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
@@ -53,4 +53,4 @@ Furthermore, I designed an advanced collision avoidance algorithm that successfu
 
 ## Acquired Funding
 
-Using the developed approaches, I created a proof of concept for a self-driving car that operates within a custom-made simulator, which successfully secured our initial funding.
+Using the developed approaches, I created a proof of concept for a self-driving car that operates within a custom-made simulator (not shown here), which successfully secured our initial funding.
