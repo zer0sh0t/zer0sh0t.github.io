@@ -11,7 +11,15 @@ Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webot
 ## COBRA Robot and Lunar Exploration
 
 <div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/cobra.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sidewinding.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cobra_modes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sidewinding_sheath.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
 </div>
 <div class="caption">
     Figure 1: COBRA robot
@@ -19,14 +27,14 @@ Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webot
 
 Silicon Synapse Lab specializes in designing bio-inspired robots. COBRA is one such project at SS Lab. COBRA, short for Crater Observing Bio-inspired Rolling Articulator, is a snake-like robot designed to emulate the movement of serpentine creatures. My work focused on enhancing the locomotion and loco-manipulation capabilities of COBRA. Engineered to navigate challenging terrains like craters, where traditional robots often struggle, COBRA features 11 joints and 12 links, enabling intricate and versatile movements. Specifically designed to explore hard-to-navigate lunar craters suspected of containing frozen water, COBRA could significantly contribute to identifying these frozen deposits, paving the way for future lunar colonization.
 
-I led the development and maintenance of simulation software for COBRA. Our team successfully secured $1 million in funding from NASA to support lunar surface exploration initiatives and earned top spot at the 2022 NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
-
 <div class="row mt-3">
-    {% include video.liquid path="assets/video/sidewinding.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    {% include figure.liquid loading="eager" path="assets/img/cobra_model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Video 1: Shows COBRA performing sidewinding motion
+    Figure 2: Shows coordinate frames and parameters usd for modeling COBRA
 </div>
+
+I led the development and maintenance of simulation software for COBRA. COBRA team successfully secured $1 million in funding from NASA to support lunar surface exploration initiatives and earned top spot at the 2022 NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
 
 ## Model Matching Framework
 
@@ -60,7 +68,6 @@ Video 2 demonstrates the final tuned simulator model achieved using the model ma
 <div class="caption">
     Video 3: Shows COBRA performing loco-manipulation
 </div>
-
 
 Additionally, I developed a controller for loco-manipulation tasks within the Webots simulator. Loco-manipulation involves the robot performing locomotion to manipulate objects in its environment, a complex challenge as it requires solving both locomotion and manipulation simultaneously. With the proposed controller, COBRA achieved an impressive success rate of 94.3% in loco-manipulation tasks, leveraging its unique body design to enhance dexterity and precision.
 
