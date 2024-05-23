@@ -143,7 +143,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     Video 5: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
 </div>
 
-## RL-based Trajectory Planning
+## Harpy Robot and RL-based Trajectory Planning
 
 I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 7), a thruster-assisted bipedal robot developed in collaboration with CalTech. This trajectory planner skillfully navigates obstacles to reach designated goals while minimizing power consumption. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 8 illustrates the environmental setup with obstacles within the Webots simulator, used for the initial proof-of-concept implementation.
 
