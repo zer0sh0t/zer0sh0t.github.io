@@ -2,7 +2,7 @@
 layout: page
 title: Lycan Automotive
 description: <p>Software Engineer<br>May 2021 - Jan 2022<br>Bangalore, India</p>
-img: assets/img/carla.jpeg
+img: assets/img/3d_obj.gif
 importance: 2
 ---
 

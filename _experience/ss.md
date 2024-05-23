@@ -173,3 +173,9 @@ Feel free to delve into my comprehensive master's thesis report at [https://doi.
 [6] "Loco-Manipulation with Nonimpulsive Contact-Implicit Planning in a Slithering Robot" by A. Salagame et. al (2024). [https://arxiv.org/abs/2404.08174](https://arxiv.org/abs/2404.08174)
 
 [7] "Dynamic Multimodal Locomotion: A Quick Overview of Hardware and Control" by Shreyansh Pitroda (2023). [https://arxiv.org/abs/2310.00008](https://arxiv.org/abs/2310.00008)
+
+[8] "How Strong a Kick Should be to Topple Northeastern's Tumbling Robot?" by A. Salagame et. al (2023). [https://arxiv.org/abs/2311.14878](https://arxiv.org/abs/2311.14878)
+
+[9] [Field testing COBRA at the NASA BIG Idea Forum 2022](https://www.youtube.com/watch?v=Zv2XgsOK-Tg&ab)
+
+[10] [https://www.youtube.com/watch?v=8cmpR3J5gbY&ab](https://www.youtube.com/watch?v=8cmpR3J5gbY&ab)
