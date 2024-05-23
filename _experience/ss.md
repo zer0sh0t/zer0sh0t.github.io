@@ -21,6 +21,28 @@ Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webot
         {% include figure.liquid loading="eager" path="assets/img/sidewinding_sheath.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/locoman_0.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cobra.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/locoman_1.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hex.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cobra_neu_0.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tumbling.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 <div class="caption">
     Figure 1: COBRA robot
 </div>
