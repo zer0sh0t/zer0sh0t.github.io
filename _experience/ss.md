@@ -2,7 +2,7 @@
 layout: page
 title: Silicon Synapse Lab
 description: <p>Research Assistant<br>Apr 2023 - Present<br>Boston, USA</p>
-img: assets/img/sidewinding.gif
+img: assets/img/cobra_neu_0.gif
 importance: 1
 ---
 
@@ -66,7 +66,7 @@ My work primarily focused on bridging the simulation-to-reality gap in the COBRA
     {% include figure.liquid loading="eager" path="assets/img/model_matching.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 2: Model matching framework
+    Figure 3: Model matching framework
 </div>
 
 As part of the Model Matching framework, I designed a seamless and intuitive API for the Webots and MuJoCo simulators, enabling effective fine-tuning of simulation parameters using reinforcement learning techniques. Additionally, I developed an accelerated RL model training pipeline, resulting in a fourfold increase in training capacity, which substantially expedited the prototyping and deployment processes.
@@ -75,10 +75,17 @@ As part of the Model Matching framework, I designed a seamless and intuitive API
     {% include video.liquid path="assets/video/real_untuned_tuned_text.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 <div class="caption">
-    Video 2:  Shows COBRA in Webots simulator with tuned model (right) and untuned model (center) performing the sidewinding motion. The red ball shows the location the actual robot achieved when similar joint trajectories were applied.
+    Video 1:  Shows COBRA in Webots simulator with tuned model (right) and untuned model (center) performing the sidewinding motion. The red ball shows the location the actual robot achieved when similar joint trajectories were applied.
 </div>
 
-Video 2 demonstrates the final tuned simulator model achieved using the model matching framework. As observed, the tuned simulator model closely matches real-world performance.
+<div class="row mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/head_trajectories.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Figure 4: Illustrates a 2D and 3D comparison between the head positions in the actual hardware platform (red), tuned model (blue) and untuned model (green) for a sidewinding trajectory @ 0.35, 0.5, and 0.65 Hz
+</div>
+
+Video 1 and Figure 4 shows results obtained from the final tuned simulator model achieved using the model matching framework. As observed, the tuned simulator model closely matches real-world performance.
 
 ## Loco-manipulation Controller
 
@@ -88,7 +95,7 @@ Video 2 demonstrates the final tuned simulator model achieved using the model ma
     </div>
 </div>
 <div class="caption">
-    Video 3: Shows COBRA performing loco-manipulation
+    Video 2: Shows COBRA performing loco-manipulation
 </div>
 
 Additionally, I developed a controller for loco-manipulation tasks within the Webots simulator. Loco-manipulation involves the robot performing locomotion to manipulate objects in its environment, a complex challenge as it requires solving both locomotion and manipulation simultaneously. With the proposed controller, COBRA achieved an impressive success rate of 94.3% in loco-manipulation tasks, leveraging its unique body design to enhance dexterity and precision.
@@ -99,7 +106,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Figure 3: Loco-manipulation problem setup in webots simulator
+    Figure 5: Loco-manipulation problem setup in webots simulator
 </div>
 
 <div class="row mt-3">
@@ -108,7 +115,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Figure 4: Hierarchical structure of loco-manipulation controller
+    Figure 6: Hierarchical structure of loco-manipulation controller
 </div>
 
 <div class="row mt-3">
@@ -117,7 +124,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Video 4: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
+    Video 3: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
 </div>
 
 <div class="row mt-3">
@@ -126,32 +133,32 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Video 5: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
+    Video 4: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
 </div>
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/loco_ex5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 <div class="caption">
-    Video 6: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
+    Video 5: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
 </div>
 
 ## RL-based Trajectory Planning
 
-I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 2), a thruster-assisted bipedal robot developed in collaboration with CalTech. This trajectory planner skillfully navigates obstacles to reach designated goals while minimizing power consumption. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 3 illustrates the environmental setup with obstacles within the Webots simulator, used for the initial proof-of-concept implementation.
+I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 7), a thruster-assisted bipedal robot developed in collaboration with CalTech. This trajectory planner skillfully navigates obstacles to reach designated goals while minimizing power consumption. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 8 illustrates the environmental setup with obstacles within the Webots simulator, used for the initial proof-of-concept implementation.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 5: Harpy robot
+    Figure 7: Harpy robot
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy_rl.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 6: Environment setup in webots simulator
+    Figure 8: Environment setup in webots simulator
 </div>
 
 ## Thesis Report
