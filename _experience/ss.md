@@ -85,7 +85,14 @@ As part of the Model Matching framework, I designed a seamless and intuitive API
     Figure 4: Illustrates a 2D and 3D comparison between the head positions in the actual hardware platform (red), tuned model (blue) and untuned model (green) for a sidewinding trajectory @ 0.35, 0.5, and 0.65 Hz
 </div>
 
-Video 1 and Figure 4 shows results obtained from the final tuned simulator model achieved using the model matching framework. As observed, the tuned simulator model closely matches real-world performance.
+<div class="row mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/joint_angle_comparison.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Figure 5: Shows a comparison between the actuator joint responses from the actual hardware platform (red), the tuned (blue) and untuned (green) models for a sidewinding gait @ 0.5 Hz
+</div>
+
+Video 1, Fig. 4 and Fig. 5 show results obtained from the final tuned simulator model achieved using the model matching framework. As observed, the tuned simulator model closely matches real-world performance.
 
 ## Loco-manipulation Controller
 
@@ -106,7 +113,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Figure 5: Loco-manipulation problem setup in webots simulator
+    Figure 6: Loco-manipulation problem setup in webots simulator
 </div>
 
 <div class="row mt-3">
@@ -115,7 +122,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Figure 6: Hierarchical structure of loco-manipulation controller
+    Figure 7: Hierarchical structure of loco-manipulation controller
 </div>
 
 <div class="row mt-3">
@@ -151,14 +158,14 @@ I also led the way in implementing energy-efficient trajectory planning using RL
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 7: Harpy robot
+    Figure 8: Harpy robot
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy_rl.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 8: Environment setup in webots simulator
+    Figure 9: Environment setup in webots simulator
 </div>
 
 ## Thesis Report
