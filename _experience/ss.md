@@ -56,7 +56,7 @@ Silicon Synapse Lab specializes in designing bio-inspired robots. COBRA is one s
     Figure 2: Shows coordinate frames and parameters usd for modeling COBRA
 </div>
 
-I led the development and maintenance of simulation software for COBRA. COBRA team successfully secured $1 million in funding from NASA to support lunar surface exploration initiatives and earned top spot at the 2022 NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
+I led the development and maintenance of simulation software for COBRA. COBRA team successfully secured funding from NASA to support lunar surface exploration initiatives and earned top spot at the NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
 
 ## Model Matching Framework
 
