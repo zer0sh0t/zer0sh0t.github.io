@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Silicon Synapse Lab
-description: <p>Research Assistant<br>Apr 2023 - Present<br>Boston, USA</p>
+description: <p>Research Assistant<br>Mar 2023 - Present<br>Boston, USA</p>
 img: assets/img/cobra_neu_0.gif
 importance: 1
 ---
