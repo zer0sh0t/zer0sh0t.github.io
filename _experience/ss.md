@@ -60,7 +60,7 @@ I led the development and maintenance of simulation software for COBRA. COBRA te
 
 ## Model Matching Framework
 
-My work primarily focused on bridging the simulation-to-reality gap in the COBRA platform. I developed a reinforcement learning-based framework called "Model Matching," which fine-tunes the simulator model to reduce discrepancies between the real robot and its simulated counterpart in the Webots simulator. By leveraging data from the actual robot, this framework has significantly enhanced the accuracy and fidelity of COBRA's locomotion simulations in the Webots simulator, reducing the sim-to-reality gap by over 150%.
+My work primarily focused on bridging the simulation-to-reality gap in the COBRA platform. I developed a reinforcement learning-based framework called "Model Matching," which fine-tunes the simulator model to reduce discrepancies between the real robot and its simulated counterpart in the Webots simulator. By leveraging data from the actual robot, this framework has significantly enhanced the accuracy and fidelity of COBRA's locomotion simulations in the Webots simulator, reducing the sim-to-reality gap by over 90%.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/model_matching.png" class="img-fluid rounded z-depth-1" zoomable=true %}
