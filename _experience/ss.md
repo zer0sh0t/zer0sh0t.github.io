@@ -1,14 +1,20 @@
 ---
 layout: page
 title: Silicon Synapse Lab
-description: <p>Research Assistant<br>Mar 2023 - Present<br>Boston, USA</p>
+role: Research Assistant · Northeastern University
+period: Mar 2023 – Apr 2024
+location: Boston, MA
+description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
+blurb: COBRA, a snake robot built to enter lunar craters rovers can't reach. NASA funded it and it took the Artemis Award. I owned its simulation and control stack.
 img: assets/img/cobra_neu_0.gif
 importance: 1
 ---
 
-Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webots, ROS
+## COBRA
 
-## COBRA Robot and Lunar Exploration
+COBRA — Crater Observing Bio-inspired Rolling Articulator — has eleven joints, twelve links, and no wheels. It sidewinds, rolls, and tumbles into lunar craters that rovers cannot enter, hunting the frozen water suspected at the bottom of them.
+
+The project is NASA-funded and took first place at the NASA BIG Idea Challenge, earning the Artemis Award. I led development of its simulation software and the controllers that ran on it.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,57 +50,57 @@ Tools used: Python, MATLAB, Simscape, C/C++, Git, Ubuntu, PyTorch, Gazebo, Webot
     </div>
 </div>
 <div class="caption">
-    Figure 1: COBRA robot
+    COBRA across its locomotion modes
 </div>
-
-Silicon Synapse Lab specializes in designing bio-inspired robots. COBRA is one such project at SS Lab. COBRA, short for Crater Observing Bio-inspired Rolling Articulator, is a snake-like robot designed to emulate the movement of serpentine creatures. My work focused on enhancing the locomotion and loco-manipulation capabilities of COBRA. Engineered to navigate challenging terrains like craters, where traditional robots often struggle, COBRA features 11 joints and 12 links, enabling intricate and versatile movements. Specifically designed to explore hard-to-navigate lunar craters suspected of containing frozen water, COBRA could significantly contribute to identifying these frozen deposits, paving the way for future lunar colonization.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/cobra_model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 2: Shows coordinate frames and parameters usd for modeling COBRA
+    Coordinate frames and parameters used to model COBRA
 </div>
 
-I led the development and maintenance of simulation software for COBRA. COBRA team successfully secured funding from NASA to support lunar surface exploration initiatives and earned top spot at the NASA BIG Idea Challenge, receiving the prestigious Artemis Award.
+## Model Matching
 
-## Model Matching Framework
+Simulators lie. The gap between COBRA in Webots and COBRA on sand was wide enough to make simulation useless for designing controllers.
 
-My work primarily focused on bridging the simulation-to-reality gap in the COBRA platform. I developed a reinforcement learning-based framework called "Model Matching," which fine-tunes the simulator model to reduce discrepancies between the real robot and its simulated counterpart in the Webots simulator. By leveraging data from the actual robot, this framework has significantly enhanced the accuracy and fidelity of COBRA's locomotion simulations in the Webots simulator, reducing the sim-to-reality gap by over 90%.
+So I stopped tuning the robot and started tuning the simulator. Model Matching is a reinforcement learning loop that treats the simulator's own parameters — friction coefficients, actuator dynamics — as the thing to be optimized, fitting them against trajectories recorded from the hardware. It closed the sim-to-real gap by over 90%.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/model_matching.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 3: Model matching framework
+    The model matching framework
 </div>
 
-As part of the Model Matching framework, I designed a seamless and intuitive API for the Webots and MuJoCo simulators, enabling effective fine-tuning of simulation parameters using reinforcement learning techniques. Additionally, I developed an accelerated RL model training pipeline, resulting in a fourfold increase in training capacity, which substantially expedited the prototyping and deployment processes.
+I built the tuning API across both Webots and MuJoCo, and an accelerated training pipeline that quadrupled throughput.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/real_untuned_tuned_text.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 <div class="caption">
-    Video 1:  Shows COBRA in Webots simulator with tuned model (right) and untuned model (center) performing the sidewinding motion. The red ball shows the location the actual robot achieved when similar joint trajectories were applied.
+    Sidewinding in Webots: tuned model (right) against untuned (center). The red ball marks where the real robot ended up under the same joint trajectories.
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/head_trajectories.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 4: Illustrates a 2D and 3D comparison between the head positions in the actual hardware platform (red), tuned model (blue) and untuned model (green) for a sidewinding trajectory @ 0.35, 0.5, and 0.65 Hz
+    Head position in hardware (red), tuned model (blue), untuned model (green), sidewinding at 0.35, 0.5 and 0.65 Hz
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/joint_angle_comparison.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 5: Shows a comparison between the actuator joint responses from the actual hardware platform (red), the tuned (blue) and untuned (green) models for a sidewinding gait @ 0.5 Hz
+    Actuator joint response, hardware (red) against tuned (blue) and untuned (green), sidewinding at 0.5 Hz
 </div>
 
-Video 1, Fig. 4 and Fig. 5 show results obtained from the final tuned simulator model achieved using the model matching framework. As observed, the tuned simulator model closely matches real-world performance.
+## Loco-manipulation
 
-## Loco-manipulation Controller
+A snake has no arms. It manipulates objects by locomoting around them, which means locomotion and manipulation stop being separable problems and have to be solved at once.
+
+I built the controller that does it. 94.3% success rate, with dynamic replanning when the target moves mid-execution.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -102,10 +108,8 @@ Video 1, Fig. 4 and Fig. 5 show results obtained from the final tuned simulator 
     </div>
 </div>
 <div class="caption">
-    Video 2: Shows COBRA performing loco-manipulation
+    COBRA performing loco-manipulation
 </div>
-
-Additionally, I developed a controller for loco-manipulation tasks within the Webots simulator. Loco-manipulation involves the robot performing locomotion to manipulate objects in its environment, a complex challenge as it requires solving both locomotion and manipulation simultaneously. With the proposed controller, COBRA achieved an impressive success rate of 94.3% in loco-manipulation tasks, leveraging its unique body design to enhance dexterity and precision.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -113,7 +117,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Figure 6: Loco-manipulation problem setup in webots simulator
+    Problem setup in Webots
 </div>
 
 <div class="row mt-3">
@@ -122,7 +126,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Figure 7: Hierarchical structure of loco-manipulation controller
+    Hierarchical structure of the loco-manipulation controller
 </div>
 
 <div class="row mt-3">
@@ -131,7 +135,7 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Video 3: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
+    Controller running in Webots (2x)
 </div>
 
 <div class="row mt-3">
@@ -140,47 +144,47 @@ Additionally, I developed a controller for loco-manipulation tasks within the We
     </div>
 </div>
 <div class="caption">
-    Video 4: Demonstration of the loco-manipulation controller in webots simualtor (played in 2x)
+    Controller running in Webots (2x)
 </div>
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/loco_ex5.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 <div class="caption">
-    Video 5: Demonstration of dynamic replanning capabilites of the controller (played in 2x). The object is relocated within the Webots simulator, shifting from its current position to a randomly chosen spot.
+    Dynamic replanning (2x). The object is moved to a random position mid-execution.
 </div>
 
-## Harpy Robot and RL-based Trajectory Planning
+## Harpy
 
-I also led the way in implementing energy-efficient trajectory planning using RL for Harpy (as depicted in Fig. 7), a thruster-assisted bipedal robot developed in collaboration with CalTech. This trajectory planner skillfully navigates obstacles to reach designated goals while minimizing power consumption. I played a pivotal role in guiding the team to frame the trajectory planning problem using RL. Figure 8 illustrates the environmental setup with obstacles within the Webots simulator, used for the initial proof-of-concept implementation.
+Harpy is a thruster-assisted bipedal robot, built with Caltech. Thrusters make the energy budget the binding constraint, so I framed trajectory planning as an RL problem and led the team through the formulation — navigating obstacles to a goal while minimizing power draw.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 8: Harpy robot
+    Harpy
 </div>
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy_rl.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 9: Environment setup in webots simulator
+    Environment setup in Webots
 </div>
 
-## Thesis Report
+## Further reading
 
-Feel free to delve into my comprehensive master's thesis report at [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774) for an in-depth exploration of model matching and loco-manipulation controller. If your time is limited, you can instead visit my blog post at [https://zer0sh0t.github.io/blog/2024/my-thesis/](https://zer0sh0t.github.io/blog/2024/my-thesis/) for a concise summary of its contents.
+Full thesis: [Reinforcement learning-based model matching in COBRA](https://doi.org/10.17760/D20659774). Short version: [the blog post]({{ '/blog/2024/my-thesis/' | relative_url }}).
 
 ## References
 
 [1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774)
 
-[2] [https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/](https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/)
+[2] [Rovers Are So Yesterday. It's Time to Send a Snakebot to Space](https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/) — WIRED
 
-[3] [https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/](https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/)
+[3] [Northeastern University Slithers to the Top with BIG Idea Alternative Rover Concept](https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/) — NASA
 
-[4] [https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf](https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf)
+[4] [Northeastern University 2022 BIG Idea Technical Paper](https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf)
 
 [5] "Non-impulsive Contact-Implicit Motion Planning for Morpho-functional Loco-manipulation" by A. Salagame et. al (2024). [https://arxiv.org/abs/2404.08714](https://arxiv.org/abs/2404.08714)
 
