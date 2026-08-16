@@ -174,6 +174,42 @@ Harpy is a thruster-assisted bipedal robot, built with Caltech. Thrusters make t
     Environment setup in Webots
 </div>
 
+## Husky
+
+Husky is a quadruped that also flies. That makes every step a decision: walk over the terrain ahead, or spend battery and fly across it. The robot cannot make that call without reading the ground first.
+
+<div class="row mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/husky.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Husky, a multi-modal quadruped with ducted-fan propulsion
+</div>
+
+I built a deep learning elevation mapping pipeline that fuses the onboard RGBD cameras and lidar into a 2.5D elevation map, estimates traversability from it in real time, and turns that into a costmap the planner uses to choose between walking and flight.
+
+<div class="row mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/husky_elevation.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Elevation map built live from onboard sensing, with the robot's view insets
+</div>
+
+The pipeline started on M4, a wheeled multi-modal platform. I reworked and migrated it to Husky, retuning it for quadrupedal dynamics, where the gait moves the sensors and the ground contact is intermittent.
+
+<div class="row mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/husky_pipeline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Perception and navigation pipeline, as originally structured for M4
+</div>
+
+<div class="row mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/husky_walk.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Husky walking under the migrated stack
+</div>
+
 ## Further reading
 
 Full thesis: [Reinforcement learning-based model matching in COBRA](https://doi.org/10.17760/D20659774). Short version: [the blog post]({{ '/blog/2024/my-thesis/' | relative_url }}).
