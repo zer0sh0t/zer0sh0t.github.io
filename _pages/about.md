@@ -9,16 +9,17 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>701 EXP<br>
-    815 Columbus Ave<br>
-    Boston, MA 02120</p>
+  more_info:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an experienced researcher with a Master’s degree in Robotics from Northeastern University, Boston, and a Bachelor’s degree in Mechanical Engineering from NIT Surat, India. My areas of expertise include deep learning, reinforcement learning, control systems engineering, computer vision, and mechatronic design. I have a proven track record of working with a wide range of robotic systems, including snake robots, quadrupeds, humanoids, drones, and wheeled robots.
+Robots for the frontier and the front line. Machines that push us deeper into space, pull people out of disasters, run the factory floor, and take the dull, dangerous, back-breaking work out of human hands. That's the work. That's what I build.
 
-Driven by a passion for advancing humanity's future, my aim is to develop systems that enhance human capabilities in areas such as space exploration, disaster response, manufacturing, and beyond. If you share these interests, I would love to connect and discuss potential collaborations. Let's explore the possibilities together!
+Four years of it so far. Most recently, the autonomy behind a robot that drives and flies through industrial spaces people should not enter, holding position with no GPS and walls on every side. I built it, I ramped it into production, and I put it in front of customers.
+
+Before that: humanoids, quadrupeds, rovers, aerial drones, snake robots, manipulators, surface vessels, and hybrids that do two of those at once. Different bodies, same question every time: where am I, and what do I do next.
+
+Now doing a PhD in ECE at UC San Diego and San Diego State, splitting time between Dr. Poveda's INCEPTION lab and Dr. Nili's Dynamic Systems and Intelligent Machines lab. Same problem as before, one layer down: theory, control, and autonomy for robots that have to work when it counts. Open to collaborations with teams building hard tech.
