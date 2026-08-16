@@ -6,7 +6,7 @@ period: Mar 2023 – Apr 2024
 location: Boston, MA
 order: 2
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
-blurb: "Simulation, control and terrain perception for three robots: COBRA, the NASA-funded snake robot that took the Artemis Award, Harpy, a thruster-assisted biped built with Caltech, and Husky, a quadruped that flies."
+blurb: "Perception, controls and autonomy for three robots: COBRA, the NASA-funded snake robot that took the Artemis Award, Harpy, a thruster-assisted biped built with Caltech, and Husky, a quadruped that flies."
 img: assets/img/cobra_neu_0.gif
 thumb: assets/img/thumb_ss.gif
 importance: 1
