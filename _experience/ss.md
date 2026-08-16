@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Silicon Synapse Lab
-role: Research Assistant · Northeastern University
+role: Research Assistant
 period: Mar 2023 – Apr 2024
 location: Boston, MA
+order: 1
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
 blurb: COBRA, a snake robot built to enter lunar craters rovers can't reach. NASA funded it and it took the Artemis Award. I owned its simulation and control stack.
 img: assets/img/cobra_neu_0.gif

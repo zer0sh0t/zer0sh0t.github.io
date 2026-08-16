@@ -174,7 +174,7 @@ collections:
     permalink: /projects/:path/
   experience:
     output: true
-    permalink: /experience/:path/
+    permalink: /work/:path/
 
 announcements:
   enabled: true
