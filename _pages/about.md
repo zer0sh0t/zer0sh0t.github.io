@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-cv_pdf: harin_resume.pdf
 subtitle: 
 
 profile:
