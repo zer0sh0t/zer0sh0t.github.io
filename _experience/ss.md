@@ -7,13 +7,13 @@ location: Boston, MA
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
 blurb: COBRA, a snake robot built to enter lunar craters rovers can't reach. NASA funded it and it took the Artemis Award. I owned its simulation and control stack.
 img: assets/img/cobra_neu_0.gif
-thumb: assets/img/thumb_ss.jpg
+thumb: assets/img/thumb_ss.gif
 importance: 1
 ---
 
 ## COBRA
 
-COBRA — Crater Observing Bio-inspired Rolling Articulator — has eleven joints, twelve links, and no wheels. It sidewinds, rolls, and tumbles into lunar craters that rovers cannot enter, hunting the frozen water suspected at the bottom of them.
+COBRA, short for Crater Observing Bio-inspired Rolling Articulator, has eleven joints, twelve links, and no wheels. It sidewinds, rolls, and tumbles into lunar craters that rovers cannot enter, hunting the frozen water suspected at the bottom of them.
 
 The project is NASA-funded and took first place at the NASA BIG Idea Challenge, earning the Artemis Award. I led development of its simulation software and the controllers that ran on it.
 
@@ -65,7 +65,7 @@ The project is NASA-funded and took first place at the NASA BIG Idea Challenge, 
 
 Simulators lie. The gap between COBRA in Webots and COBRA on sand was wide enough to make simulation useless for designing controllers.
 
-So I stopped tuning the robot and started tuning the simulator. Model Matching is a reinforcement learning loop that treats the simulator's own parameters — friction coefficients, actuator dynamics — as the thing to be optimized, fitting them against trajectories recorded from the hardware. It closed the sim-to-real gap by over 90%.
+So I stopped tuning the robot and started tuning the simulator. Model Matching is a reinforcement learning loop that treats the simulator's own parameters (friction coefficients, actuator dynamics) as the thing to be optimized, fitting them against trajectories recorded from the hardware. It closed the sim-to-real gap by over 90%.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/model_matching.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -157,7 +157,7 @@ I built the controller that does it. 94.3% success rate, with dynamic replanning
 
 ## Harpy
 
-Harpy is a thruster-assisted bipedal robot, built with Caltech. Thrusters make the energy budget the binding constraint, so I framed trajectory planning as an RL problem and led the team through the formulation — navigating obstacles to a goal while minimizing power draw.
+Harpy is a thruster-assisted bipedal robot, built with Caltech. Thrusters make the energy budget the binding constraint, so I framed trajectory planning as an RL problem and led the team through the formulation: navigating obstacles to a goal while minimizing power draw.
 
 <div class="row mt-3">
     {% include figure.liquid loading="eager" path="assets/img/harpy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -181,9 +181,9 @@ Full thesis: [Reinforcement learning-based model matching in COBRA](https://doi.
 
 [1] "Reinforcement learning-based model matching in COBRA, a slithering snake robot" by Harin Kumar Nallaguntla (2024). [https://doi.org/10.17760/D20659774](https://doi.org/10.17760/D20659774)
 
-[2] [Rovers Are So Yesterday. It's Time to Send a Snakebot to Space](https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/) — WIRED
+[2] [Rovers Are So Yesterday. It's Time to Send a Snakebot to Space](https://www.wired.com/story/rovers-are-so-yesterday-its-time-to-send-a-snakebot-to-space/), WIRED
 
-[3] [Northeastern University Slithers to the Top with BIG Idea Alternative Rover Concept](https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/) — NASA
+[3] [Northeastern University Slithers to the Top with BIG Idea Alternative Rover Concept](https://www.nasa.gov/directorates/stmd/northeastern-university-slithers-to-the-top-with-big-idea-alternative-rover-concept/), NASA
 
 [4] [Northeastern University 2022 BIG Idea Technical Paper](https://bigidea.nianet.org/wp-content/uploads/Northeastern-University-2022-Big-Idea-Technical-Paper.pdf)
 

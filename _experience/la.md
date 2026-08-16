@@ -7,13 +7,13 @@ location: Bangalore, India
 description: Software Engineer · Mar 2021 – Feb 2022 · Bangalore, India
 blurb: Perception and planning for an autonomous EV aimed at Indian traffic. The prototype I built raised the company's first round.
 img: assets/img/3d_obj.gif
-thumb: assets/img/thumb_la.jpg
+thumb: assets/img/thumb_la.gif
 importance: 2
 ---
 
 ## The problem
 
-Lycan was building consumer EVs for Indian roads. Unstructured traffic, unmarked lanes, and pedestrians who negotiate rather than wait — the benchmarks trained on Californian highways do not transfer.
+Lycan was building consumer EVs for Indian roads. Unstructured traffic, unmarked lanes, and pedestrians who negotiate rather than wait. The benchmarks trained on Californian highways do not transfer.
 
 I built the perception and planning stack that had to survive it, across CARLA, Highway Env, and a custom simulator, trained on a mix of our own data and KITTI and UCB.
 
@@ -26,7 +26,7 @@ I built the perception and planning stack that had to survive it, across CARLA, 
 
 ## 3D object detection
 
-Single-stage and multi-stage monocular 3D detection in PyTorch and Numba — vehicles, pedestrians, cyclists, trucks — at 87% mAP, from a single camera and no lidar.
+Single-stage and multi-stage monocular 3D detection in PyTorch and Numba, covering vehicles, pedestrians, cyclists and trucks, at 87% mAP from a single camera and no lidar.
 
 <div class="row mt-3">
     {% include video.liquid path="assets/video/3d_obj.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
