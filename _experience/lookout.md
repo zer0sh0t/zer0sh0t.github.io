@@ -44,6 +44,26 @@ I extended the perception stack to fuse RADAR, RGB and thermal cameras, GPS and 
 
 Open water is not a road network, so I designed an enhanced RRT* planner shaped around boat dynamics: no instant heading changes, no reversing out of a mistake. It replans in 70 ms and clears cluttered traffic 96% of the time across varying sea states.
 
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-7">
+        {% include video.liquid path="assets/video/lookout_planner.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=false %}
+    </div>
+</div>
+<div class="caption">
+    The planner from above: own vessel, the committed route, and the tracked contacts it is planning around
+</div>
+
+Testing a planner against real traffic is slow and expensive, so the work happened in a simulation environment built for it, where sea state, traffic density and channel geometry can be set deliberately rather than waited for.
+
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-10">
+        {% include video.liquid path="assets/video/lookout_sim.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    </div>
+</div>
+<div class="caption">
+    Planning pipeline running in the custom simulation environment, with charted hazards, channel markers and other traffic
+</div>
+
 ## Making it run on the boat
 
 None of it matters if it does not fit in the box on the vessel. I optimized the end-to-end pipeline for embedded deployment and held 60 Hz on a Jetson Orin while cutting CPU load by 25%, memory by 20%, and operating temperature by 15%, which is what keeps hardware alive in an engine bay in summer.
