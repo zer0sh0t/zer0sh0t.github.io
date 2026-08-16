@@ -8,7 +8,7 @@ order: 1
 description: Software Engineer, Sensors and Integration · Aug 2024 – Feb 2025 · Cambridge, MA
 blurb: Perception and planning for a fleet of 70 autonomous surface vessels running with the US Coast Guard, the US Navy and commercial operators.
 img: assets/img/lookout_system.jpg
-thumb: assets/img/thumb_lookout.jpg
+thumb: assets/img/thumb_lookout.gif
 importance: 2
 ---
 
