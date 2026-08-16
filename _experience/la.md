@@ -4,7 +4,7 @@ title: Lycan Automotive
 role: Software Engineer
 period: Mar 2021 – Feb 2022
 location: Bangalore, India
-order: 3
+order: 4
 description: Software Engineer · Mar 2021 – Feb 2022 · Bangalore, India
 blurb: Perception and planning for an autonomous EV aimed at Indian traffic. The prototype I built raised the company's first round.
 img: assets/img/3d_obj.gif

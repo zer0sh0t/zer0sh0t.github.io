@@ -4,7 +4,7 @@ title: Silicon Synapse Lab
 role: Research Assistant
 period: Mar 2023 – Apr 2024
 location: Boston, MA
-order: 1
+order: 2
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
 blurb: COBRA, a snake robot built to enter lunar craters rovers can't reach. NASA funded it and it took the Artemis Award. I owned its simulation and control stack.
 img: assets/img/cobra_neu_0.gif
@@ -187,8 +187,10 @@ Husky is a quadruped that also flies. That makes every step a decision: walk ove
 
 I built a deep learning elevation mapping pipeline that fuses the onboard RGBD cameras and lidar into a 2.5D elevation map, estimates traversability from it in real time, and turns that into a costmap the planner uses to choose between walking and flight.
 
-<div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/husky_elevation.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-10">
+        {% include video.liquid path="assets/video/husky_elevation.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    </div>
 </div>
 <div class="caption">
     Elevation map built live from onboard sensing, with the robot's view insets
@@ -203,8 +205,10 @@ The pipeline started on M4, a wheeled multi-modal platform. I reworked and migra
     Perception and navigation pipeline, as originally structured for M4
 </div>
 
-<div class="row mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/husky_walk.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-10">
+        {% include video.liquid path="assets/video/husky_walk.mp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=false %}
+    </div>
 </div>
 <div class="caption">
     Husky walking under the migrated stack
