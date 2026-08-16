@@ -7,6 +7,7 @@ location: Boston, MA
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
 blurb: COBRA, a snake robot built to enter lunar craters rovers can't reach. NASA funded it and it took the Artemis Award. I owned its simulation and control stack.
 img: assets/img/cobra_neu_0.gif
+thumb: assets/img/thumb_ss.jpg
 importance: 1
 ---
 
