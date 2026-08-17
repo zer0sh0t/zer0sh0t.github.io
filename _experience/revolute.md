@@ -4,9 +4,9 @@ title: Revolute Robotics
 role: Senior Robotics Engineer, previously Control Systems Engineer
 period: Feb 2025 – Jul 2026
 location: Boston, MA
-order: 1
+order: 3
 description: Senior Robotics Engineer · Feb 2025 – Jul 2026 · Boston, MA
-blurb: "Owned autonomy for GRIFFIN, a robot that drives and flies through industrial spaces people should not enter. Took it from bench to production and put it in front of customers at six sites."
+blurb: "Owned autonomy for GRIFFIN, a robot that drives and flies through industrial spaces people should not enter. Took it from bench to production and put it in front of customers."
 img: assets/img/revolute_hmr.jpg
 thumb: assets/img/thumb_revolute.gif
 importance: 1
@@ -14,7 +14,9 @@ importance: 1
 
 ## A robot that drives and flies
 
-Inside a pressure vessel, a cooling tower or a run of pipe, there is no GPS, no room to manoeuvre, and no good reason to send a person. The Hybrid Mobility Robot drives when the floor allows it and flies when it does not, inside a cage that lets it bounce off the walls it is inevitably going to hit.
+Inside a pressure vessel, a cooling tower or a run of pipe, there is no GPS, no room to manoeuvre, and no good reason to send a person. The robot drives when the floor allows it and flies when it does not, and it is built to survive the walls it is inevitably going to hit.
+
+The platform went through three bodies while I was there. HMR is the caged drone, wrapped in a rolling cage so a collision is a bounce rather than a crash. TQ dropped the cage. GRIFFIN moved to ducted rotors and is the current version, and it is the one whose autonomy I owned.
 
 <div class="row justify-content-center mt-3">
     <div class="col-sm-9">
@@ -22,10 +24,10 @@ Inside a pressure vessel, a cooling tower or a run of pipe, there is no GPS, no 
     </div>
 </div>
 <div class="caption">
-    The HMR: tracks on the outside, four ducted rotors inside the frame
+    GRIFFIN: tracks on the outside, four ducted rotors inside the frame
 </div>
 
-I joined as a control systems engineer and left as the senior robotics engineer who owned autonomy for GRIFFIN, the production release of the platform. Two versions of the robot, and the whole path from a bench prototype to hardware that customers ran on their own sites.
+I joined as a control systems engineer and left as the senior robotics engineer, and the arc of the job was the whole path from a bench prototype to hardware that customers ran on their own sites.
 
 ## Flying inside the plant
 
@@ -83,7 +85,7 @@ Two changes mattered most. I wrote custom firmware for an MPC-based locomotion m
 
 ## Out of the lab
 
-A robot that works in the lab is a demo. I led field deployments at six customer sites, including Palo Verde, the largest nuclear plant in the United States, and a coal mine outside Phoenix. Pre-deployment validation, flight testing on site, and diagnosing failures on someone else's schedule with the crew standing there watching.
+A robot that works in the lab is a demo. I led field deployments to customer sites, including Palo Verde, the largest nuclear plant in the United States, and a coal mine outside Phoenix. Pre-deployment validation, flight testing on site, and diagnosing failures on someone else's schedule with the crew standing there watching.
 
 <div class="row justify-content-center mt-3">
     <div class="col-sm-9">
@@ -98,7 +100,7 @@ Across 30 days of field operation the robot flew reliably inside live tanks, tow
 
 ## Shipping a fleet
 
-Production is its own engineering problem. I owned project planning and the production ramp for the fleet, coordinating a five-person build team across seven HMR units and cutting build-to-field turnaround by three weeks.
+Production is its own engineering problem. I owned project planning and the production ramp for the fleet, coordinating a five-person build team across seven units and cutting build-to-field turnaround by three weeks.
 
 <div class="row justify-content-center mt-3">
     <div class="col-sm-10">

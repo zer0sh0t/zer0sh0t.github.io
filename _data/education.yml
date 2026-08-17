@@ -1,6 +1,24 @@
 # Education rows rendered inline in the work chronology (_pages/work.md).
 # These deliberately have no sub-pages: they are context, not projects.
-- order: 5
+- order: 1
+  kind: education
+  title: University of California San Diego
+  role: PhD in Electrical and Computer Engineering
+  period: Aug 2026 – Present
+  location: San Diego, CA
+  blurb: Developing new control theory and autonomy tools at Dr. Poveda's INCEPTION lab.
+  logo: assets/img/logo_ucsd.png
+
+- order: 2
+  kind: education
+  title: San Diego State University
+  role: PhD in Electrical and Computer Engineering
+  period: Aug 2026 – Present
+  location: San Diego, CA
+  blurb: Implementing those theorized frameworks on hardware at Dr. Nili's Dynamic Systems and Intelligent Machines lab.
+  logo: assets/img/logo_sdsu.png
+
+- order: 7
   kind: education
   title: Northeastern University
   role: Master's in Robotics
@@ -9,7 +27,7 @@
   blurb: Master's in Robotics, focused on control systems engineering and autonomy. Two years of building and testing robots that had to work outside the lab.
   logo: assets/img/logo_neu.png
 
-- order: 7
+- order: 9
   kind: education
   title: NIT Surat
   role: Bachelor's in Mechanical Engineering

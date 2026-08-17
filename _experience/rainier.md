@@ -4,7 +4,7 @@ title: Rainier Labs
 role: Research Engineer
 period: Oct 2024 – Jan 2025
 location: San Jose, CA
-order: 3
+order: 5
 description: Research Engineer · Oct 2024 – Jan 2025 · San Jose, CA
 blurb: "Built the locomotion controller for the Terrier quadruped from prototype, taking it from a policy trained across 4000 simulated robots to one that walks on hardware."
 img: assets/img/rainier_dog.jpg
