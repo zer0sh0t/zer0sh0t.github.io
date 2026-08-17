@@ -19,6 +19,6 @@ Robots for the frontier and the front line. Machines that push us deeper into sp
 
 Four years of it so far. Most recently, the autonomy behind a robot that drives and flies through industrial spaces people should not enter, holding position with no GPS and walls on every side. I built it, I ramped it into production, and I put it in front of customers.
 
-Before that: humanoids, quadrupeds, rovers, aerial drones, snake robots, manipulators, surface vessels, and hybrids that do two of those at once. Different bodies, same question every time: where am I, and what do I do next.
+Before that: humanoids, quadrupeds, rovers, aerial drones, a NASA-funded snake robot, manipulators, surface vessels, and hybrids that do two of those at once. Different bodies, same question every time: where am I, and what do I do next.
 
 Now doing a PhD in ECE at UC San Diego and San Diego State, splitting time between Dr. Poveda's INCEPTION lab and Dr. Nili's Dynamic Systems and Intelligent Machines lab. Same problem as before, one layer down: theory, control, and autonomy for robots that have to work when it counts. Open to collaborations with teams building hard tech.
