@@ -6,7 +6,7 @@ period: Mar 2023 – Apr 2024
 location: Boston, MA
 order: 6
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
-blurb: "Perception, controls and autonomy for three robots: COBRA, the NASA-funded snake robot that took the Artemis Award, Harpy, a thruster-assisted biped built with Caltech, and Husky, a quadruped that flies."
+blurb: "Perception, controls and autonomy for three robots: COBRA, the NASA-funded snake robot selected to go to the Moon on a future Artemis mission, Harpy, a thruster-assisted biped built with Caltech, and Husky, a quadruped that flies."
 img: assets/img/cobra_neu_0.gif
 thumb: assets/img/thumb_ss.gif
 importance: 1
@@ -16,7 +16,7 @@ importance: 1
 
 COBRA, short for Crater Observing Bio-inspired Rolling Articulator, has eleven joints, twelve links, and no wheels. It sidewinds, rolls, and tumbles into lunar craters that rovers cannot enter, hunting the frozen water suspected at the bottom of them.
 
-The project is NASA-funded and took first place at the NASA BIG Idea Challenge, earning the Artemis Award. I led development of its simulation software and the controllers that ran on it.
+The project is NASA-funded and took first place at the NASA BIG Idea Challenge, earning the Artemis Award. COBRA has been selected to fly on a future Artemis mission, so at some point the robot goes to the Moon and does this for real. I led development of its simulation software and the controllers that ran on it.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

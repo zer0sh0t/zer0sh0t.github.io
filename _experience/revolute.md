@@ -7,7 +7,7 @@ location: Boston, MA
 order: 3
 description: Senior Robotics Engineer · Feb 2025 – Jul 2026 · Boston, MA
 blurb: "Owned autonomy for GRIFFIN, a robot that drives and flies through industrial spaces people should not enter. Took it from bench to production and put it in front of customers."
-img: assets/img/revolute_hmr.jpg
+img: assets/img/revolute_tq4.jpg
 thumb: assets/img/thumb_revolute.gif
 importance: 1
 ---
@@ -20,11 +20,11 @@ The platform went through three bodies while I was there. HMR is the caged drone
 
 <div class="row justify-content-center mt-3">
     <div class="col-sm-9">
-        {% include figure.liquid loading="eager" path="assets/img/revolute_hmr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/revolute_tq4.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    GRIFFIN: tracks on the outside, four ducted rotors inside the frame
+    Tracks on the outside, ducted rotors inside the frame
 </div>
 
 I joined as a control systems engineer and left as the senior robotics engineer, and the arc of the job was the whole path from a bench prototype to hardware that customers ran on their own sites.
