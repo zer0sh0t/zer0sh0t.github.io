@@ -85,7 +85,7 @@ Two changes mattered most. I wrote custom firmware for an MPC-based locomotion m
 
 ## Out of the lab
 
-A robot that works in the lab is a demo. I led field deployments to customer sites, including Palo Verde, the largest nuclear plant in the United States, and a coal mine outside Phoenix. Pre-deployment validation, flight testing on site, and diagnosing failures on someone else's schedule with the crew standing there watching.
+A robot that works in the lab is a demo. I led field deployments to customer sites, including a coal mine outside Phoenix. Pre-deployment validation, flight testing on site, and diagnosing failures on someone else's schedule with the crew standing there watching.
 
 <div class="row justify-content-center mt-3">
     <div class="col-sm-9">
