@@ -1,6 +1,6 @@
 # Education rows rendered inline in the work chronology (_pages/work.md).
 # These deliberately have no sub-pages: they are context, not projects.
-- order: 4
+- order: 5
   kind: education
   title: Northeastern University
   role: Master's in Robotics
@@ -9,7 +9,7 @@
   blurb: Master's in Robotics, focused on control systems engineering and autonomy. Two years of building and testing robots that had to work outside the lab.
   logo: assets/img/logo_neu.png
 
-- order: 6
+- order: 7
   kind: education
   title: NIT Surat
   role: Bachelor's in Mechanical Engineering

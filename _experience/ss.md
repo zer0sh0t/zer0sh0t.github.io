@@ -4,7 +4,7 @@ title: Silicon Synapse Lab
 role: Research Assistant
 period: Mar 2023 – Apr 2024
 location: Boston, MA
-order: 3
+order: 4
 description: Research Assistant · Mar 2023 – Apr 2024 · Boston, MA
 blurb: "Perception, controls and autonomy for three robots: COBRA, the NASA-funded snake robot that took the Artemis Award, Harpy, a thruster-assisted biped built with Caltech, and Husky, a quadruped that flies."
 img: assets/img/cobra_neu_0.gif

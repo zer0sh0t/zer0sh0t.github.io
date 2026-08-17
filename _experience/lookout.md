@@ -4,7 +4,7 @@ title: Lookout
 role: Software Engineer, Sensors and Integration
 period: Aug 2024 – Feb 2025
 location: Cambridge, MA
-order: 1
+order: 2
 description: Software Engineer, Sensors and Integration · Aug 2024 – Feb 2025 · Cambridge, MA
 blurb: Perception and planning for a fleet of 70 autonomous surface vessels running with the US Coast Guard, the US Navy and commercial operators.
 img: assets/img/lookout_system.jpg
