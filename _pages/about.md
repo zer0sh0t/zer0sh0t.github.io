@@ -22,3 +22,26 @@ Four years of it so far. Most recently, the autonomy behind a robot that drives 
 Before that: humanoids, quadrupeds, rovers, aerial drones, a NASA-funded snake robot, manipulators, surface vessels, and hybrids that do two of those at once. Different bodies, same question every time: where am I, and what do I do next.
 
 Now doing a PhD in ECE at UC San Diego and San Diego State, splitting time between Dr. Poveda's INCEPTION lab and Dr. Nili's Dynamic Systems and Intelligent Machines lab. Same problem as before, one layer down: theory, control, and autonomy for robots that have to work when it counts. Open to collaborations with teams building hard tech.
+
+<div class="row justify-content-center align-items-center mt-4">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/about_griffin.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/about_hmr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/thumb_lookout.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row justify-content-center align-items-center mt-3">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/about_cobra.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/about_harpy.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/about_nuance.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
