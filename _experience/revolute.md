@@ -27,6 +27,12 @@ The platform went through three bodies while I was there. HMR is the caged drone
     Tracks on the outside, ducted rotors inside the frame
 </div>
 
+<div class="row justify-content-center mt-3">
+    <div class="col-sm-10">
+        {% include video.liquid path="assets/video/revolute_griffin.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+    </div>
+</div>
+
 I joined as a control systems engineer and left as the senior robotics engineer, and the arc of the job was the whole path from a bench prototype to hardware that customers ran on their own sites.
 
 ## Flying inside the plant
