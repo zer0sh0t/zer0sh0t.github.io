@@ -31,17 +31,20 @@ Now doing a PhD in ECE at UC San Diego and San Diego State, splitting time betwe
         {% include figure.liquid loading="eager" path="assets/img/about_hmr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/thumb_lookout.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/about_robotdog.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="row justify-content-center align-items-center mt-3">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/thumb_lookout.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/about_cobra.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/about_harpy.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/about_nuance.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
